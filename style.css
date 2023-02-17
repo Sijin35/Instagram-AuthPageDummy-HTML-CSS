@@ -1,0 +1,274 @@
+* {
+    font-family: -apple-system,
+        BlinkMacSystemFont,
+        'Segoe UI',
+        Roboto,
+        Helvetica,
+        Arial,
+        sans-serif;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+}
+
+
+h5 {
+    color: #828282;
+}
+
+/* .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    width: 100%;
+} */
+
+.trial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    height: 100%;
+    margin-top: -50px;
+}
+
+.trial .trial1 {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.ibut {
+    position: absolute;
+    bottom: 20px;
+    right: 45%;
+}
+
+
+.ibut input {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.ibut input:hover {
+    background: black;
+}
+
+.icam {
+    position: absolute;
+    /* top: 20; */
+    left: 28%;
+}
+
+.icam input {
+    width: 127px;
+    height: 40px;
+    border: 3px solid #414A4C;
+    border-radius: 0 0px 16px 16px;
+}
+
+.topbox {
+    width: 100%;
+    border: 1px solid rgb(216, 214, 214);
+    background-color: #fff;
+}
+
+.trial1 .he1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin: 20px;
+}
+
+
+
+.trial1 {
+    width: 100%;
+    height: 650px;
+}
+
+.trial1>main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 370px;
+    gap: 15px;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.field input {
+    display: flex;
+    background-color: #fafafa;
+    padding: 10px 20px;
+    border: 1px solid #f0e9e9;
+    border-radius: 5px;
+    font-size: 12px;
+    outline: none;
+    width: 80%;
+}
+
+.field input:focus {
+    border: 2px ridge rgba(216, 214, 214, 0.808);
+}
+
+.con {
+    display: flex;
+    justify-content: center;
+
+}
+
+.but {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 149, 246);
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    width: 80%;
+    margin: 10px;
+    padding: 10px 10px;
+    font-size: 15px;
+}
+
+
+.options a {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+    color: #385185;
+}
+
+.linediv {
+    height: 15px;
+    width: 32%;
+    border-top: 1px solid black;
+    margin-top: 15px;
+}
+
+center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 17px;
+}
+
+.trial2 {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    border: 1px solid rgb(216, 214, 214);
+    width: 100%;
+}
+
+.trial2 a {
+    color: rgb(0, 149, 246);
+}
+
+
+.mfoot {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100%;
+}
+
+.mfoot p {
+    display: flex;
+    justify-content: center;
+}
+
+.mfoot .btn {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+footer {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    font-size: 14px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+footer a {
+    color: #828282;
+    font-size: 12px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer ul li {
+    color: #828282;
+    font-size: 12px;
+}
+
+.footone {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.foottwo {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.i {
+    position: relative;
+    border: 7px solid #414A4C;
+    border-radius: 26px;
+}
+
+
+
+@media screen and (max-width:695px) {
+
+    .i {
+        display: none;
+    }
+
+    footer {
+        display: flex;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+    }
+
+    .footone ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}

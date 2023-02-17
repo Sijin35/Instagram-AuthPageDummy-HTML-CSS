@@ -1,0 +1,120 @@
+<html>
+
+<head>
+    <title>Instagram</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="icon" type="image/x-icon" href="images/instafavi2.png">
+</head>
+
+<script>
+    function nyan() {
+        let nyanDiv = document.getElementById('nyan')
+        nyanDiv.style.display = "block"
+    } 
+</script>
+
+<body>
+    <marquee direction="right" id="nyan" style="position: absolute; top: 30px; width: 100%; display:none;"><img
+            src="images/nyan-cat.gif" height="90px" width="200px" />
+    </marquee>
+
+    <div class="trial">
+        <div class="trial1">
+            <div class="i">
+                <img src="images/insta1.png" style="margin: 20px;" />
+                <span class="ibut">
+                    <a href="https://i1.sndcdn.com/artworks-000175322862-52y80e-t500x500.jpg" target="_blank"><input
+                            type="button" style="cursor:pointer" /></a>
+                </span>
+                <span class="icam">
+                    <a href="#" onclick="nyan()"><input type="button" style="cursor:pointer"></a>
+                </span>
+            </div>
+
+            <main>
+                <div class="topbox">
+                    <div class="he1">
+                        <img src="images/instalogo.png" alt="Instagram" width="175px" height="51px"
+                            style="cursor: pointer;">
+                    </div>
+                    <!-- possilbe to configure multiple inpult fields in one? -->
+                    <!-- configuring so that accept button is unclickable until fields are filled? -->
+                    <!-- shifting placholders at the top of field? -->
+                    <div class="field">
+                        <input type="text" id="uname" name="uname" placeholder="Phone number, Username, or Email">
+                        <input type="password" id="pass" name="pass" placeholder="Password">
+                        <br><br>
+                    </div>
+                    <div class="con">
+                        <input type="button" value="Log In" class="but" style="cursor:pointer">
+                    </div>
+                    <center>
+                        <span class="linediv"></span>
+                        <h5>OR</h5>
+                        <span class="linediv"></span>
+                    </center>
+                    <div class="options">
+                        <a href=""><img src="images/face.png" width="18px" height="18px" alt="Facebook Logo"
+                                style="margin-right: 5px;"> Log in
+                            with
+                            Facebook</a>
+                        <a href="" style="font-size: 12px;">Forgot Password?</a>
+                    </div>
+                </div>
+                <div class="trial2">
+                    <p>Don't have an account?<a href="signup.html">Sign up</a></p>
+                </div>
+
+                <section class="mfoot">
+
+                    <p>Get the app.</p>
+
+                    <div class="btn">
+                        <a
+                            href="https://play.google.com/store/apps/details?id=com.instagram.android&referrer=utm_source%3Dinstagramweb%26utm_campaign%3DloginPage%26ig_mid%3D5308203B-D4C6-4D27-9812-08861F1DD643%26utm_content%3Dlo%26utm_medium%3Dbadge&pli=1"><img
+                                src="images/gplay.png" alt="Google Play Web Link" width="140px" height="45px"></a>
+                        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="images/micro.png"
+                                alt="Microsoft Store Link" width="140px" height="45px"></a>
+                    </div>
+                </section>
+
+            </main>
+        </div>
+
+
+
+    </div>
+
+    <!-- <aside>
+        selecting image like webstie?
+    </aside> -->
+</body>
+
+<footer>
+    <div class="footone">
+        <ul>
+            <li><a href="">Meta</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Jobs</a></li>
+            <li><a href="">Help</a></li>
+            <li><a href="">API</a></li>
+            <li><a href="">Privacy</a></li>
+            <li><a href="">Terms</a></li>
+            <li><a href="">Top Accounts</a></li>
+            <li><a href="">Locations</a></li>
+            <li><a href="">Instagram Live</a></li>
+            <li><a href="">Contact Uploading & Non-Users</a></li>
+        </ul>
+    </div>
+    <div class="foottwo">
+        <ul>
+            <!-- automatic language selection?
+            automatic date change? -->
+            <li>English</li>
+            <li>&copy 2023 Instagram from Meta</li>
+        </ul>
+    </div>
+</footer>
+
+</html>
